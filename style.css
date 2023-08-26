@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@600;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@600;800&family=Lexend+Deca:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@600;800&family=Lexend+Deca:wght@200&display=swap");
+body {
+  background-color: hsl(233, 47%, 7%);
+}
+.containr {
+  width: 70rem;
+  background-color: hsl(244, 38%, 16%);
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  color: white;
+  margin: auto;
+  font-family: "Inter", sans-serif;
+  font-family: "Lexend Deca", sans-serif;
+  margin-top: 120px;
+}
+@media screen and (max-width: 650px) {
+  .containr {
+    width: 70%;
+    flex-direction: column-reverse;
+  }
+}
+.cardText {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-content: center;
+  margin: auto;
+}
+@media screen and (max-width: 650px) {
+  .cardText {
+    width: 90%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.datas {
+  width: 85%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 50px;
+}
+.imgContainer {
+  width: 50%;
+}
+@media screen and (max-width: 650px) {
+  .imgContainer {
+    width: 100%;
+  }
+}
+.imgIcon {
+  /* width: 35rem; */
+  width: 100%;
+  border-radius: 0px 5px 5px 0px;
+}
+#headerText {
+  font-weight: 700px;
+  font-family: "Inter", sans-serif;
+}
+#numbers {
+  font-size: 24px;
+  font-family: "Inter", sans-serif;
+}
+#differentWord {
+  color: hsl(277, 64%, 61%);
+}
+/* @media screen and (min-width: 480px) {
+  body {
+  }
+} */
